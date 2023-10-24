@@ -1,0 +1,69 @@
+    
+    h1 {
+        margin: 0;
+        margin-left: 30px;
+    }
+/* span {
+    z-index: 1;
+} */
+
+div {
+    margin-left: 10px;
+}
+ul {
+    display: flex;
+    margin-left: -20px;
+    text-decoration: none;
+
+}
+
+
+span {
+    position: absolute;
+    right: 20px;
+}
+li {
+    white-space: nowrap;
+    list-style: none;
+
+}
+
+p {
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    
+}
+.close {
+    opacity: 0;
+    z-index: 1;
+    transform: rotate(35deg);
+    transition: transform .3s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.open {
+    z-index: 10;
+    transform: translateY(0px);
+    transform: opacity .3s;
+    user-select: none;
+    cursor: pointer;
+}
+.show {
+    height: 80px;
+    opacity: 1;
+    margin-left: -80px;
+    transform: translateY(30px);
+    transition: transform .3s;
+}
+
+.view {
+opacity: 1;
+transform: rotate(-90deg);
+transition: transform .3s;
+}
+.delete {
+    opacity: 0;
+}
